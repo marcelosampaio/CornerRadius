@@ -12,6 +12,7 @@
 		7F0B9B062319706A0028573F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F0B9B042319706A0028573F /* Main.storyboard */; };
 		7F0B9B082319706E0028573F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F0B9B072319706E0028573F /* Assets.xcassets */; };
 		7F0B9B0B2319706E0028573F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F0B9B092319706E0028573F /* LaunchScreen.storyboard */; };
+		7F0B9B14231970F10028573F /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0B9B13231970F10028573F /* UIView+Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7F0B9B072319706E0028573F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F0B9B0A2319706E0028573F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F0B9B0C2319706E0028573F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F0B9B13231970F10028573F /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		7F0B9AFF2319706A0028573F /* CornerRadius */ = {
 			isa = PBXGroup;
 			children = (
+				7F0B9B12231970DA0028573F /* Extension */,
 				7F0B9B002319706A0028573F /* AppDelegate.swift */,
 				7F0B9B022319706A0028573F /* ViewController.swift */,
 				7F0B9B042319706A0028573F /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				7F0B9B0C2319706E0028573F /* Info.plist */,
 			);
 			path = CornerRadius;
+			sourceTree = "<group>";
+		};
+		7F0B9B12231970DA0028573F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7F0B9B13231970F10028573F /* UIView+Utils.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F0B9B032319706A0028573F /* ViewController.swift in Sources */,
+				7F0B9B14231970F10028573F /* UIView+Utils.swift in Sources */,
 				7F0B9B012319706A0028573F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

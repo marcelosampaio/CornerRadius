@@ -9,10 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // MARK: - View Outlets
+    @IBOutlet weak var topView: UIView!
+    
 
+    // MARK: - View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
+        self.topView.addShadow(shadowColor: .black, offSet: CGSize(width: 2.6, height: 2.6), opacity: 0.8, shadowRadius: 5.0, cornerRadius: 20.0, corners: [.topLeft, .bottomRight], fillColor: .red)
+        
+        
     }
 
 
